@@ -35,4 +35,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Check_continue_shopping_button_functionality</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b15e2d50-7640-4c67-bc44-f48c4f6c6d63</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Remove_item_from_cart</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
