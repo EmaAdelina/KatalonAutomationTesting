@@ -29,4 +29,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Add_to_cart_multiple_items</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4e0e2e6d-28ef-4696-8842-992fa2348a5b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Check_continue_shopping_button_functionality</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
