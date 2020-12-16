@@ -41,4 +41,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Remove_item_from_cart</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>041b771a-18c4-4b34-aece-2d5607e4c981</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checkout</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
