@@ -53,4 +53,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Checkout_only_if_Loggedin</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>0bb3177e-bd5b-4240-8aa8-ab6353045681</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checkout_only_after_buyer_detailes_are_filled-in</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
