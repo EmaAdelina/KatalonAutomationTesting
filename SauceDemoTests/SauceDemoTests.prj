@@ -6,6 +6,7 @@
    <UUID>8fc653d6-87d8-4233-b8a6-a5b1934eb665</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>F:\Projects\GitRepos\KatalonAutomationTesting\SauceDemoTests\SauceDemoTests.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

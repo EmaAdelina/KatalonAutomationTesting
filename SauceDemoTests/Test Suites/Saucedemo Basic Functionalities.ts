@@ -47,4 +47,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Checkout</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>bf93aca6-c901-4e00-8066-43987703bc04</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checkout_only_if_Loggedin</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
