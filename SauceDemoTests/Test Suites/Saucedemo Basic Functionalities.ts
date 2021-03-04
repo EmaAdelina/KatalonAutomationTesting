@@ -59,4 +59,16 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Checkout_only_after_buyer_detailes_are_filled-in</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>5bd5c6b5-6631-4ea7-81f9-1fe8853775cb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checkout_only_after_product_is_added_to_cart</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cdca3b26-b065-4b53-a3d8-bbf5739fc206</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Check_item _selection_criteria_functionality_low_to_high</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
