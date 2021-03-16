@@ -23,4 +23,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Contact_customer_service</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6325ddc2-1de3-4e0c-bb41-d9512bef1b91</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Write_review_on_item</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
