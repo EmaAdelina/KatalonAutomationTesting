@@ -29,4 +29,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Write_review_on_item</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>e86ca22f-cf6d-4455-af16-8b24d2203eba</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create_new_wishlist</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
