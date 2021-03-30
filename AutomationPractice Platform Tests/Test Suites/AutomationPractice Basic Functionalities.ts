@@ -35,4 +35,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Create_new_wishlist</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>6585c0a4-5668-4778-b5d8-7a9dfe8201bf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add_to_cart_several_pieces_of_the_same_item</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
