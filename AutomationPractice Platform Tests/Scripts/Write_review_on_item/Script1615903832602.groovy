@@ -31,15 +31,15 @@ WebUI.click(findTestObject('Customer Account Page/Home button'))
 
 WebUI.click(findTestObject('Item Inventory/Faded Short Sleeve T-shirts item'))
 
-WebUI.click(findTestObject('Item Page/Write a review input'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Item Page/Title input'), 'Review')
+WebUI.setText(findTestObject('null'), 'Review')
 
-WebUI.setText(findTestObject('Item Page/Comment input'), 'This is a review.')
+WebUI.setText(findTestObject('null'), 'This is a review.')
 
-WebUI.click(findTestObject('Item Page/Send button'))
+WebUI.click(findTestObject('null'))
 
-WebUI.verifyElementText(findTestObject('Item Page/Confirmation note review'), 'Your comment has been added and will be available once approved by a moderator')
+WebUI.verifyElementText(findTestObject('null'), 'Your comment has been added and will be available once approved by a moderator')
 
 WebUI.closeBrowser()
 

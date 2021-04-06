@@ -14,14 +14,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
+import com.kms.katalon.core.testobject.TestObjectXpath as TestObjectXpath
 
 // Data set
 
 String url = "www.automationpractice.com";
 String email = "12345@yahoo.com";
 String password = "12345";
-String itemName = "Blouse";
-String quantity = "3";
+String sizeValue = "2";
+String itemSize = "M";
+String listItemAttributeName = "class";
+String listItemAttributeValue = "selected";
+String colorLinkAttributeName = "name";
+String colorLinkAttributeValue = "Black";
 
 WebUI.openBrowser(null);
 
@@ -37,16 +43,18 @@ WebUI.click(findTestObject("Object Repository/Sign in page/Sign in button"));
 
 WebUI.click(findTestObject("Object Repository/Customer Account Page/Home button"));
 
-WebUI.click(findTestObject("Object Repository/Item Inventory/Blouse item"));
+WebUI.click(findTestObject("Object Repository/Item Inventory/Printed Summer Dress item"));
 
-WebUI.doubleClick(findTestObject("null"));
+WebUI.selectOptionByValue(findTestObject("Object Repository/Item Page/Select size input"), sizeValue, false);
 
-WebUI.click(findTestObject("null"));
+WebUI.verifyElementText(findTestObject("Object Repository/Item Page/Select size text"), itemSize);
+
+WebUI.click(findTestObject("Object Repository/Item Page/Color black input"));
 
 WebUI.delay(3);
 
-WebUI.verifyElementText(findTestObject("null"), itemName);
+WebUI.verifyElementAttributeValue(findTestObject("Object Repository/Item Page/Color Status"), listItemAttributeName, listItemAttributeValue, 5);
 
-WebUI.verifyElementText(findTestObject("null"), quantity);
+WebUI.verifyElementAttributeValue(findTestObject("Object Repository/Item Page/Color Link"), colorLinkAttributeName, colorLinkAttributeValue, 5);
 
-WebUI.closeBrowser(null)
+WebUI.closeBrowser()

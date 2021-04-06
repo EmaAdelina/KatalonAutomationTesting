@@ -41,4 +41,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Add_to_cart_several_pieces_of_the_same_item</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>7f295844-e953-4164-87d7-03c437fc6aaf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Select_color_and_size_for_item</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
