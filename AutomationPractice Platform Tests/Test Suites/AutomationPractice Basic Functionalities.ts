@@ -47,4 +47,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Select_color_and_size_for_item</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>335ef6d8-6d00-4517-b30c-a2c98c8d4254</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add_a_new_address</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
